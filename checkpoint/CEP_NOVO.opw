@@ -1,0 +1,153 @@
+[RESOURCES]
+Máquina Iniciador
+Operador 4
+Operador 3
+Operador 2
+Operador 1
+[VARIABLES]
+CPU 8.VACost
+Gerador 3.NumberOut
+Rollback Operador 3.WaitTime
+CPU 12.VATime
+CPU 11.VATime
+CPU 10.VATime
+Rollback Operador 4.WaitTime
+CPU 2.NumberIn
+Receptor 2.NumberOut
+Incrementa tempo?.NumberOut True
+CPU 5.NumberOut
+CPU 2.NumberOut
+CPU 2.WaitCost
+CPU 3.VACost
+CPU 8.WaitTime
+ckpt_time_op1
+CPU 1.VATime
+CPU 8.VATime
+CPU 6.VATime
+Iniciador.NumberOut
+CPU 6.NumberOut
+CPU 7.NumberOut
+Gerador 1.NumberOut
+CPU 1.NumberOut
+CPU 1.VACost
+CPU 2.WaitTime
+CPU 1.WaitCost
+CPU 12.VACost
+CPU 11.VACost
+CPU 10.VACost
+Fluxos descartados.NumberOut
+Operador 1 está funcionando?.NumberOut True
+Operador 2 está funcionando?.NumberOut True
+Operador 3 está funcionando?.NumberOut True
+Operador 4 está funcionando?.NumberOut True
+Iniciador.WaitTime
+CPU 4.WaitCost
+CPU 5.VACost
+CPU 4.VACost
+tempoTotal
+Operador 1 está funcionando?.NumberOut False
+Operador 2 está funcionando?.NumberOut False
+Operador 3 está funcionando?.NumberOut False
+Operador 4 está funcionando?.NumberOut False
+Dep_Graph definido para Operador 1?.NumberOut True
+Dep_Graph definido para Operador 2?.NumberOut True
+Dep_Graph definido para Operador 3?.NumberOut True
+Dep_Graph definido para Operador 4?.NumberOut True
+CPU 5.WaitCost
+Receptor 1.NumberOut
+CPU 6.VACost
+Dep_Graph definido para Operador 1?.NumberOut False
+Dep_Graph definido para Operador 2?.NumberOut False
+Dep_Graph definido para Operador 3?.NumberOut False
+Dep_Graph definido para Operador 4?.NumberOut False
+CPU 3.VATime
+Rollback Operador 1.WaitCost
+CPU 5.WaitTime
+CPU 6.WaitCost
+CPU 9.NumberOut
+CPU 5.VATime
+CPU 8.NumberOut
+Gerador 4.NumberOut
+Iniciador.VATime
+CPU 9.WaitCost
+CPU 12.WaitCost
+CPU 11.WaitCost
+CPU 10.WaitCost
+CPU 7.WaitTime
+CPU 4.NumberOut
+descartarFluxos
+CPU 3.NumberIn
+CPU 4.VATime
+Rollback Operador 1.VATime
+Rollback Operador 1.VACost
+Rollback Operador 2.WaitTime
+CPU 4.NumberIn
+CPU 9.VACost
+CPU 6.NumberIn
+CPU 2.VATime
+Rollback Operador 2.VACost
+Receptor 4.NumberOut
+Incrementa tempo?.NumberOut False
+Gerador 2.NumberOut
+Iniciador.WaitCost
+CPU 9.NumberIn
+Rollback Operador 2.NumberOut
+Rollback Operador 2.VATime
+Rollback Operador 2.NumberIn
+Rollback Operador 4.VACost
+CPU 3.WaitTime
+Operador 1 funcionando?.NumberOut False
+Operador 2 funcionando?.NumberOut False
+Operador 3 funcionando?.NumberOut False
+Operador 4 funcionando?.NumberOut False
+Rollback Operador 1.NumberOut
+Rollback Operador 4.VATime
+Operador 1 funcionando?.NumberOut True
+Operador 2 funcionando?.NumberOut True
+Operador 3 funcionando?.NumberOut True
+Operador 4 funcionando?.NumberOut True
+CPU 7.VACost
+Rollback Operador 1.NumberIn
+Iniciador.NumberIn
+CPU 3.WaitCost
+CPU 6.WaitTime
+CPU 1.NumberIn
+Rollback Operador 4.WaitCost
+CPU 12.WaitTime
+CPU 11.WaitTime
+CPU 10.WaitTime
+dep_graph
+Rollback Operador 2.WaitCost
+CPU 3.NumberOut
+Receptor 3.NumberOut
+Rollback Operador 1.WaitTime
+CPU 5.NumberIn
+CPU 9.WaitTime
+Rollback Operador 4.NumberOut
+CPU 4.WaitTime
+Rollback Operador 4.NumberIn
+CPU 12.NumberIn
+CPU 11.NumberIn
+CPU 10.NumberIn
+ckpt_init_op4
+Rollback Operador 3.WaitCost
+ckpt_init_op1
+CPU 7.WaitCost
+CPU 12.NumberOut
+CPU 11.NumberOut
+CPU 10.NumberOut
+ckpt_init_op2
+ckpt_init_op3
+Iniciador.VACost
+Rollback Operador 3.NumberIn
+Rollback Operador 3.NumberOut
+CPU 2.VACost
+Finalização do Checkpoint ou Rollback.NumberOut
+CPU 7.VATime
+Rollback Operador 3.VACost
+CPU 7.NumberIn
+CPU 9.VATime
+CPU 8.NumberIn
+Rollback Operador 3.VATime
+CPU 1.WaitTime
+CPU 8.WaitCost

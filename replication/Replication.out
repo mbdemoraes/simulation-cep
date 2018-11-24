@@ -1,0 +1,484 @@
+Controlador de execução do SIMAN.
+
+0.0010684802 Horas>
+                                      ARENA Simulation Results
+                                     Matheus - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução :11/24/2018
+Analista: Bernardelli                                                 Data de revisão do modelo:11/24/2018
+
+Replicação terminada no tempo de      : 0.0010684802 Horas 
+Unidade de Tempo Base: Horas
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+CPU 21.WaitTimePerEntity                    7.9914E-10 (Corr)     .00000     1.7696E-08   3319    
+CPU 20.WaitTimePerEntity                    7.9603E-10 7.9375E-11 .00000     1.3603E-08   3092    
+CPU 19.WaitTimePerEntity                    8.2336E-10 (Corr)     .00000     1.5075E-08   3205    
+CPU 18.WaitTimePerEntity                    1.2294E-09 (Corr)     .00000     2.4374E-08   3273    
+CPU 17.WaitTimePerEntity                    1.0937E-09 (Corr)     .00000     2.4472E-08   3134    
+CPU 16.WaitTimePerEntity                    1.1907E-09 (Corr)     .00000     2.0813E-08   3209    
+CPU 15.WaitTimePerEntity                    1.4606E-08 (Corr)     .00000     1.6427E-07   3315    
+CPU 14.WaitTimePerEntity                    1.4445E-08 (Corr)     .00000     1.2246E-07   3153    
+CPU 13.WaitTimePerEntity                    1.4532E-08 (Corr)     .00000     1.2787E-07   3148    
+CPU 12.WaitTimePerEntity                    6.2085E-10 (Corr)     .00000     1.5657E-08   3339    
+CPU 11.WaitTimePerEntity                    6.5421E-10 1.2251E-10 .00000     1.8980E-08   3113    
+CPU 10.WaitTimePerEntity                    7.0242E-10 (Corr)     .00000     2.4664E-08   3164    
+CPU 9.VACostPerEntity                           --         --         --         --          0
+CPU 8.VACostPerEntity                           --         --         --         --          0
+CPU 7.VACostPerEntity                           --         --         --         --          0
+CPU 6.VACostPerEntity                           --         --         --         --          0
+CPU 5.VACostPerEntity                           --         --         --         --          0
+CPU 4.VACostPerEntity                           --         --         --         --          0
+CPU 3.VACostPerEntity                           --         --         --         --          0
+CPU 2.VACostPerEntity                           --         --         --         --          0
+CPU 1.VACostPerEntity                           --         --         --         --          0
+CPU 9.TotalCostPerEntity                        --         --         --         --          0
+CPU 8.TotalCostPerEntity                        --         --         --         --          0
+CPU 7.TotalCostPerEntity                        --         --         --         --          0
+CPU 6.TotalCostPerEntity                        --         --         --         --          0
+CPU 5.TotalCostPerEntity                        --         --         --         --          0
+CPU 4.TotalCostPerEntity                        --         --         --         --          0
+CPU 3.TotalCostPerEntity                        --         --         --         --          0
+CPU 2.TotalCostPerEntity                        --         --         --         --          0
+CPU 1.TotalCostPerEntity                        --         --         --         --          0
+CPU 9.WaitTimePerEntity                         --         --         --         --          0
+CPU 8.WaitTimePerEntity                         --         --         --         --          0
+CPU 7.WaitTimePerEntity                         --         --         --         --          0
+CPU 6.WaitTimePerEntity                         --         --         --         --          0
+CPU 5.WaitTimePerEntity                         --         --         --         --          0
+CPU 4.WaitTimePerEntity                         --         --         --         --          0
+CPU 3.WaitTimePerEntity                         --         --         --         --          0
+CPU 2.WaitTimePerEntity                         --         --         --         --          0
+CPU 1.WaitTimePerEntity                         --         --         --         --          0
+CPU 9.TotalTimePerEntity                        --         --         --         --          0
+CPU 8.TotalTimePerEntity                        --         --         --         --          0
+CPU 7.TotalTimePerEntity                        --         --         --         --          0
+CPU 6.TotalTimePerEntity                        --         --         --         --          0
+CPU 5.TotalTimePerEntity                        --         --         --         --          0
+CPU 4.TotalTimePerEntity                        --         --         --         --          0
+CPU 3.TotalTimePerEntity                        --         --         --         --          0
+CPU 2.TotalTimePerEntity                        --         --         --         --          0
+CPU 1.TotalTimePerEntity                        --         --         --         --          0
+CPU 21.WaitCostPerEntity                    .00000     .00000     .00000     .00000       3319    
+CPU 20.WaitCostPerEntity                    .00000     .00000     .00000     .00000       3092    
+CPU 19.WaitCostPerEntity                    .00000     .00000     .00000     .00000       3205    
+CPU 18.WaitCostPerEntity                    .00000     .00000     .00000     .00000       3273    
+CPU 17.WaitCostPerEntity                    .00000     .00000     .00000     .00000       3134    
+CPU 16.WaitCostPerEntity                    .00000     .00000     .00000     .00000       3209    
+CPU 15.WaitCostPerEntity                    .00000     .00000     .00000     .00000       3315    
+CPU 14.WaitCostPerEntity                    .00000     .00000     .00000     .00000       3153    
+CPU 13.WaitCostPerEntity                    .00000     .00000     .00000     .00000       3148    
+CPU 12.WaitCostPerEntity                    .00000     .00000     .00000     .00000       3339    
+CPU 11.WaitCostPerEntity                    .00000     .00000     .00000     .00000       3113    
+CPU 10.WaitCostPerEntity                    .00000     .00000     .00000     .00000       3164    
+CPU 21.TotalTimePerEntity                   2.3044E-08 1.3968E-10 1.3750E-08 3.8094E-08   3319    
+CPU 20.TotalTimePerEntity                   2.3001E-08 1.3259E-10 1.4076E-08 3.7142E-08   3092    
+CPU 19.TotalTimePerEntity                   2.3048E-08 1.4437E-10 1.3265E-08 3.7968E-08   3205    
+CPU 18.TotalTimePerEntity                   2.3429E-08 2.4614E-10 1.1700E-08 4.3536E-08   3273    
+CPU 17.TotalTimePerEntity                   2.3391E-08 (Corr)     1.2445E-08 4.5176E-08   3134    
+CPU 16.TotalTimePerEntity                   2.3412E-08 (Corr)     1.2342E-08 4.5402E-08   3209    
+CPU 15.TotalTimePerEntity                   3.6818E-08 (Corr)     1.0130E-08 1.8659E-07   3315    
+CPU 14.TotalTimePerEntity                   3.6633E-08 (Corr)     1.3115E-08 1.5112E-07   3153    
+CPU 13.TotalTimePerEntity                   3.6782E-08 (Corr)     1.4170E-08 1.5188E-07   3148    
+CPU 12.TotalTimePerEntity                   2.2881E-08 1.7953E-10 1.2963E-08 4.3817E-08   3339    
+CPU 11.TotalTimePerEntity                   2.2869E-08 1.1054E-10 1.3883E-08 4.3340E-08   3113    
+CPU 10.TotalTimePerEntity                   2.2986E-08 1.9001E-10 1.2519E-08 4.7678E-08   3164    
+CPU 21.VACostPerEntity                      .00000     .00000     .00000     .00000       3319    
+CPU 20.VACostPerEntity                      .00000     .00000     .00000     .00000       3092    
+CPU 19.VACostPerEntity                      .00000     .00000     .00000     .00000       3205    
+CPU 18.VACostPerEntity                      .00000     .00000     .00000     .00000       3273    
+CPU 17.VACostPerEntity                      .00000     .00000     .00000     .00000       3134    
+CPU 16.VACostPerEntity                      .00000     .00000     .00000     .00000       3209    
+CPU 15.VACostPerEntity                      .00000     .00000     .00000     .00000       3315    
+CPU 14.VACostPerEntity                      .00000     .00000     .00000     .00000       3153    
+CPU 13.VACostPerEntity                      .00000     .00000     .00000     .00000       3148    
+CPU 12.VACostPerEntity                      .00000     .00000     .00000     .00000       3339    
+CPU 11.VACostPerEntity                      .00000     .00000     .00000     .00000       3113    
+CPU 10.VACostPerEntity                      .00000     .00000     .00000     .00000       3164    
+CPU 9.VATimePerEntity                           --         --         --         --          0
+CPU 8.VATimePerEntity                           --         --         --         --          0
+CPU 7.VATimePerEntity                           --         --         --         --          0
+CPU 6.VATimePerEntity                           --         --         --         --          0
+CPU 5.VATimePerEntity                           --         --         --         --          0
+CPU 4.VATimePerEntity                           --         --         --         --          0
+CPU 3.VATimePerEntity                           --         --         --         --          0
+CPU 2.VATimePerEntity                           --         --         --         --          0
+CPU 1.VATimePerEntity                           --         --         --         --          0
+CPU 21.VATimePerEntity                      2.2245E-08 1.1531E-10 1.3515E-08 3.1125E-08   3319    
+CPU 20.VATimePerEntity                      2.2205E-08 1.0821E-10 1.3224E-08 3.2766E-08   3092    
+CPU 19.VATimePerEntity                      2.2224E-08 1.1479E-10 1.2562E-08 3.4658E-08   3205    
+CPU 18.VATimePerEntity                      2.2199E-08 1.0934E-10 1.1700E-08 3.1062E-08   3273    
+CPU 17.VATimePerEntity                      2.2297E-08 1.0432E-10 1.1848E-08 3.2382E-08   3134    
+CPU 16.VATimePerEntity                      2.2222E-08 1.3266E-10 1.2342E-08 3.2241E-08   3209    
+CPU 15.VATimePerEntity                      2.2212E-08 8.0233E-11 1.0130E-08 3.2361E-08   3315    
+CPU 14.VATimePerEntity                      2.2187E-08 9.8770E-11 1.0981E-08 3.2380E-08   3153    
+CPU 13.VATimePerEntity                      2.2250E-08 9.5460E-11 1.3447E-08 3.2297E-08   3148    
+CPU 12.VATimePerEntity                      2.2260E-08 1.0447E-10 1.2963E-08 3.2086E-08   3339    
+CPU 11.VATimePerEntity                      2.2214E-08 1.0925E-10 1.3883E-08 3.2866E-08   3113    
+CPU 10.VATimePerEntity                      2.2284E-08 9.9726E-11 1.2519E-08 3.0868E-08   3164    
+CPU 9.WaitCostPerEntity                         --         --         --         --          0
+CPU 8.WaitCostPerEntity                         --         --         --         --          0
+CPU 7.WaitCostPerEntity                         --         --         --         --          0
+CPU 6.WaitCostPerEntity                         --         --         --         --          0
+CPU 5.WaitCostPerEntity                         --         --         --         --          0
+CPU 4.WaitCostPerEntity                         --         --         --         --          0
+CPU 3.WaitCostPerEntity                         --         --         --         --          0
+CPU 2.WaitCostPerEntity                         --         --         --         --          0
+CPU 1.WaitCostPerEntity                         --         --         --         --          0
+CPU 21.TotalCostPerEntity                   .00000     .00000     .00000     .00000       3319    
+CPU 20.TotalCostPerEntity                   .00000     .00000     .00000     .00000       3092    
+CPU 19.TotalCostPerEntity                   .00000     .00000     .00000     .00000       3205    
+CPU 18.TotalCostPerEntity                   .00000     .00000     .00000     .00000       3273    
+CPU 17.TotalCostPerEntity                   .00000     .00000     .00000     .00000       3134    
+CPU 16.TotalCostPerEntity                   .00000     .00000     .00000     .00000       3209    
+CPU 15.TotalCostPerEntity                   .00000     .00000     .00000     .00000       3315    
+CPU 14.TotalCostPerEntity                   .00000     .00000     .00000     .00000       3153    
+CPU 13.TotalCostPerEntity                   .00000     .00000     .00000     .00000       3148    
+CPU 12.TotalCostPerEntity                   .00000     .00000     .00000     .00000       3339    
+CPU 11.TotalCostPerEntity                   .00000     .00000     .00000     .00000       3113    
+CPU 10.TotalCostPerEntity                   .00000     .00000     .00000     .00000       3164    
+Fluxos de Dados.VATime                      8.8934E-08 1.2099E-10 6.8552E-08 1.1352E-07   9616    
+Fluxos de Dados.NVATime                     .00000     .00000     .00000     .00000       9616    
+Fluxos de Dados.WaitTime                    1.7166E-08 (Corr)     .00000     1.7212E-07   9616    
+Fluxos de Dados.TranTime                    .00000     .00000     .00000     .00000       9616    
+Fluxos de Dados.OtherTime                   .00000     .00000     .00000     .00000       9616    
+Fluxos de Dados.TotalTime                   1.0610E-07 (Corr)     6.8600E-08 2.6293E-07   9616    
+Fluxos de Dados.VACost                      .00000     .00000     .00000     .00000       9616    
+Fluxos de Dados.NVACost                     .00000     .00000     .00000     .00000       9616    
+Fluxos de Dados.WaitCost                    .00000     .00000     .00000     .00000       9616    
+Fluxos de Dados.TranCost                    .00000     .00000     .00000     .00000       9616    
+Fluxos de Dados.OtherCost                   .00000     .00000     .00000     .00000       9616    
+Fluxos de Dados.TotalCost                   .00000     .00000     .00000     .00000       9616    
+CPU 21.Queue.WaitingTime                    7.9914E-10 (Corr)     .00000     1.7696E-08   3319    
+CPU 21.Queue.WaitingCost                    .00000     .00000     .00000     .00000       3319    
+CPU 20.Queue.WaitingTime                    7.9603E-10 7.9375E-11 .00000     1.3603E-08   3092    
+CPU 20.Queue.WaitingCost                    .00000     .00000     .00000     .00000       3092    
+CPU 2.Queue.WaitingTime                         --         --         --         --          0
+CPU 2.Queue.WaitingCost                         --         --         --         --          0
+CPU 4.Queue.WaitingTime                         --         --         --         --          0
+CPU 4.Queue.WaitingCost                         --         --         --         --          0
+CPU 7.Queue.WaitingTime                         --         --         --         --          0
+CPU 7.Queue.WaitingCost                         --         --         --         --          0
+CPU 9.Queue.WaitingTime                         --         --         --         --          0
+CPU 9.Queue.WaitingCost                         --         --         --         --          0
+CPU 19.Queue.WaitingTime                    8.2336E-10 (Corr)     .00000     1.5075E-08   3205    
+CPU 19.Queue.WaitingCost                    .00000     .00000     .00000     .00000       3205    
+CPU 18.Queue.WaitingTime                    1.2294E-09 (Corr)     .00000     2.4374E-08   3273    
+CPU 18.Queue.WaitingCost                    .00000     .00000     .00000     .00000       3273    
+CPU 17.Queue.WaitingTime                    1.0937E-09 (Corr)     .00000     2.4472E-08   3134    
+CPU 17.Queue.WaitingCost                    .00000     .00000     .00000     .00000       3134    
+CPU 16.Queue.WaitingTime                    1.1907E-09 (Corr)     .00000     2.0813E-08   3209    
+CPU 16.Queue.WaitingCost                    .00000     .00000     .00000     .00000       3209    
+CPU 15.Queue.WaitingTime                    1.4606E-08 (Corr)     .00000     1.6427E-07   3315    
+CPU 15.Queue.WaitingCost                    .00000     .00000     .00000     .00000       3315    
+CPU 14.Queue.WaitingTime                    1.4441E-08 (Corr)     .00000     1.2246E-07   3154    
+CPU 14.Queue.WaitingCost                    .00000     .00000     .00000     .00000       3154    
+CPU 13.Queue.WaitingTime                    1.4532E-08 (Corr)     .00000     1.2787E-07   3148    
+CPU 13.Queue.WaitingCost                    .00000     .00000     .00000     .00000       3148    
+CPU 12.Queue.WaitingTime                    6.2085E-10 (Corr)     .00000     1.5657E-08   3339    
+CPU 12.Queue.WaitingCost                    .00000     .00000     .00000     .00000       3339    
+CPU 11.Queue.WaitingTime                    6.5421E-10 1.2251E-10 .00000     1.8980E-08   3113    
+CPU 11.Queue.WaitingCost                    .00000     .00000     .00000     .00000       3113    
+CPU 10.Queue.WaitingTime                    7.0242E-10 (Corr)     .00000     2.4664E-08   3164    
+CPU 10.Queue.WaitingCost                    .00000     .00000     .00000     .00000       3164    
+CPU 1.Queue.WaitingTime                         --         --         --         --          0
+CPU 1.Queue.WaitingCost                         --         --         --         --          0
+CPU 3.Queue.WaitingTime                         --         --         --         --          0
+CPU 3.Queue.WaitingCost                         --         --         --         --          0
+CPU 8.Queue.WaitingTime                         --         --         --         --          0
+CPU 8.Queue.WaitingCost                         --         --         --         --          0
+CPU 6.Queue.WaitingTime                         --         --         --         --          0
+CPU 6.Queue.WaitingCost                         --         --         --         --          0
+CPU 5.Queue.WaitingTime                         --         --         --         --          0
+CPU 5.Queue.WaitingCost                         --         --         --         --          0
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+tempoTotal Value                            5.3406E-04 (Insuf)    .00000     .00107     .00107    
+Fluxos de Dados.WIP                         .95490     (Insuf)    .00000     8.0000     2.0000    
+Máquina Iniciador.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Máquina Iniciador.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Máquina Iniciador.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Operador 4.NumberBusy                       .20027     (Insuf)    .00000     1.0000     .00000    
+Operador 4.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 4.Utilization                      .20027     (Insuf)    .00000     1.0000     .00000    
+Operador 3.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Operador 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 3.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+Operador 2.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Operador 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 2.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+Operador 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Operador 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operador 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+Resource Backup 1.NumberBusy                .19996     (Insuf)    .00000     1.0000     1.0000    
+Resource Backup 1.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource Backup 1.Utilization               .19996     (Insuf)    .00000     1.0000     1.0000    
+Resource Backup 2.NumberBusy                .20014     (Insuf)    .00000     1.0000     .00000    
+Resource Backup 2.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource Backup 2.Utilization               .20014     (Insuf)    .00000     1.0000     .00000    
+Resource Backup 3.NumberBusy                .20002     (Insuf)    .00000     1.0000     .00000    
+Resource Backup 3.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource Backup 3.Utilization               .20002     (Insuf)    .00000     1.0000     .00000    
+CPU 21.Queue.NumberInQueue                  .00248     (Insuf)    .00000     1.0000     .00000    
+CPU 20.Queue.NumberInQueue                  .00230     (Insuf)    .00000     1.0000     .00000    
+CPU 2.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+CPU 4.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+CPU 7.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+CPU 9.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+CPU 19.Queue.NumberInQueue                  .00247     (Insuf)    .00000     1.0000     .00000    
+CPU 18.Queue.NumberInQueue                  .00377     (Insuf)    .00000     1.0000     .00000    
+CPU 17.Queue.NumberInQueue                  .00321     (Insuf)    .00000     2.0000     .00000    
+CPU 16.Queue.NumberInQueue                  .00358     (Insuf)    .00000     1.0000     .00000    
+CPU 15.Queue.NumberInQueue                  .04532     (Insuf)    .00000     5.0000     .00000    
+CPU 14.Queue.NumberInQueue                  .04265     (Insuf)    .00000     4.0000     1.0000    
+CPU 13.Queue.NumberInQueue                  .04282     (Insuf)    .00000     4.0000     .00000    
+CPU 12.Queue.NumberInQueue                  .00194     (Insuf)    .00000     1.0000     .00000    
+CPU 11.Queue.NumberInQueue                  .00191     (Insuf)    .00000     1.0000     .00000    
+CPU 10.Queue.NumberInQueue                  .00208     (Insuf)    .00000     1.0000     .00000    
+CPU 1.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+CPU 3.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+CPU 8.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+CPU 6.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+CPU 5.Queue.NumberInQueue                   .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+CPU 8 Accum VA Cost                         .00000    
+CPU 6 Total Accum Time                      .00000    
+CPU 19 Accum VA Time                        7.1229E-05
+CPU 18 Accum VA Time                        7.2659E-05
+CPU 17 Accum VA Time                        6.9879E-05
+CPU 16 Accum VA Time                        7.1309E-05
+CPU 15 Accum VA Time                        7.3633E-05
+CPU 14 Accum VA Time                        6.9957E-05
+CPU 13 Accum VA Time                        7.0044E-05
+CPU 12 Accum VA Time                        7.4328E-05
+CPU 11 Accum VA Time                        6.9153E-05
+CPU 10 Accum VA Time                        7.0505E-05
+CPU 21 Number In                            3319.0    
+CPU 20 Number In                            3092.0    
+CPU 2 Number In                             .00000    
+CPU 2 Total Accum Cost                      .00000    
+CPU 1 Total Accum Time                      .00000    
+CPU 19 Total Accum Time                     7.3868E-05
+CPU 18 Total Accum Time                     7.6683E-05
+CPU 17 Total Accum Time                     7.3306E-05
+CPU 16 Total Accum Time                     7.5130E-05
+CPU 15 Total Accum Time                     1.2205E-04
+CPU 14 Total Accum Time                     1.1550E-04
+CPU 13 Total Accum Time                     1.1579E-04
+CPU 12 Total Accum Time                     7.6401E-05
+CPU 11 Total Accum Time                     7.1190E-05
+CPU 10 Total Accum Time                     7.2728E-05
+CPU 21 Number Out                           3319.0    
+CPU 20 Number Out                           3092.0    
+CPU 5 Number Out                            .00000    
+CPU 2 Number Out                            .00000    
+CPU 2 Accum Wait Cost                       .00000    
+CPU 8 Accum Wait Time                       .00000    
+CPU 3 Accum VA Cost                         .00000    
+CPU 1 Accum VA Time                         .00000    
+CPU 8 Accum VA Time                         .00000    
+CPU 6 Accum VA Time                         .00000    
+CPU 6 Number Out                            .00000    
+CPU 8 Total Accum Time                      .00000    
+CPU 7 Number Out                            .00000    
+CPU 8 Total Accum Cost                      .00000    
+CPU 1 Accum VA Cost                         .00000    
+CPU 1 Number Out                            .00000    
+CPU 2 Accum Wait Time                       .00000    
+CPU 1 Accum Wait Cost                       .00000    
+CPU 19 Accum VA Cost                        .00000    
+CPU 18 Accum VA Cost                        .00000    
+CPU 17 Accum VA Cost                        .00000    
+CPU 16 Accum VA Cost                        .00000    
+CPU 15 Accum VA Cost                        .00000    
+CPU 14 Accum VA Cost                        .00000    
+CPU 13 Accum VA Cost                        .00000    
+CPU 12 Accum VA Cost                        .00000    
+CPU 11 Accum VA Cost                        .00000    
+CPU 10 Accum VA Cost                        .00000    
+CPU 9 Total Accum Cost                      .00000    
+CPU 4 Accum Wait Cost                       .00000    
+CPU 5 Accum VA Cost                         .00000    
+CPU 4 Accum VA Cost                         .00000    
+CPU 5 Accum Wait Cost                       .00000    
+CPU 6 Accum VA Cost                         .00000    
+CPU 3 Total Accum Time                      .00000    
+CPU 3 Accum VA Time                         .00000    
+CPU 5 Accum Wait Time                       .00000    
+CPU 6 Total Accum Cost                      .00000    
+CPU 6 Accum Wait Cost                       .00000    
+CPU 9 Number Out                            .00000    
+CPU 5 Accum VA Time                         .00000    
+CPU 2 Total Accum Time                      .00000    
+CPU 8 Number Out                            .00000    
+CPU 4 Total Accum Cost                      .00000    
+CPU 19 Accum Wait Cost                      .00000    
+CPU 18 Accum Wait Cost                      .00000    
+CPU 17 Accum Wait Cost                      .00000    
+CPU 16 Accum Wait Cost                      .00000    
+CPU 15 Accum Wait Cost                      .00000    
+CPU 14 Accum Wait Cost                      .00000    
+CPU 13 Accum Wait Cost                      .00000    
+CPU 12 Accum Wait Cost                      .00000    
+CPU 11 Accum Wait Cost                      .00000    
+CPU 10 Accum Wait Cost                      .00000    
+CPU 9 Accum Wait Cost                       .00000    
+CPU 7 Accum Wait Time                       .00000    
+CPU 4 Number Out                            .00000    
+CPU 3 Number In                             .00000    
+CPU 4 Accum VA Time                         .00000    
+CPU 9 Accum VA Cost                         .00000    
+CPU 4 Number In                             .00000    
+CPU 5 Total Accum Cost                      .00000    
+CPU 6 Number In                             .00000    
+CPU 21 Accum Wait Time                      2.6523E-06
+CPU 20 Accum Wait Time                      2.4613E-06
+CPU 2 Accum VA Time                         .00000    
+CPU 4 Total Accum Time                      .00000    
+CPU 9 Number In                             .00000    
+CPU 7 Total Accum Time                      .00000    
+CPU 3 Accum Wait Time                       .00000    
+CPU 5 Total Accum Time                      .00000    
+CPU 3 Total Accum Cost                      .00000    
+CPU 7 Accum VA Cost                         .00000    
+CPU 3 Accum Wait Cost                       .00000    
+CPU 6 Accum Wait Time                       .00000    
+CPU 1 Number In                             .00000    
+CPU 19 Accum Wait Time                      2.6389E-06
+CPU 18 Accum Wait Time                      4.0239E-06
+CPU 17 Accum Wait Time                      3.4276E-06
+CPU 16 Accum Wait Time                      3.8209E-06
+CPU 15 Accum Wait Time                      4.8419E-05
+CPU 14 Accum Wait Time                      4.5546E-05
+CPU 13 Accum Wait Time                      4.5747E-05
+CPU 12 Accum Wait Time                      2.0730E-06
+CPU 11 Accum Wait Time                      2.0366E-06
+CPU 10 Accum Wait Time                      2.2225E-06
+CPU 3 Number Out                            .00000    
+CPU 21 Total Accum Time                     7.6484E-05
+CPU 21 Accum Wait Cost                      .00000    
+CPU 20 Total Accum Time                     7.1120E-05
+CPU 20 Accum Wait Cost                      .00000    
+CPU 5 Number In                             .00000    
+CPU 9 Accum Wait Time                       .00000    
+CPU 21 Accum VA Cost                        .00000    
+CPU 20 Accum VA Cost                        .00000    
+CPU 4 Accum Wait Time                       .00000    
+CPU 21 Accum VA Time                        7.3832E-05
+CPU 20 Accum VA Time                        6.8658E-05
+CPU 19 Number In                            3205.0    
+CPU 18 Number In                            3273.0    
+CPU 17 Number In                            3134.0    
+CPU 16 Number In                            3209.0    
+CPU 15 Number In                            3315.0    
+CPU 14 Number In                            3155.0    
+CPU 13 Number In                            3148.0    
+CPU 12 Number In                            3339.0    
+CPU 11 Number In                            3113.0    
+CPU 10 Number In                            3164.0    
+CPU 19 Number Out                           3205.0    
+CPU 18 Number Out                           3273.0    
+CPU 17 Number Out                           3134.0    
+CPU 16 Number Out                           3209.0    
+CPU 15 Number Out                           3315.0    
+CPU 14 Number Out                           3153.0    
+CPU 13 Number Out                           3148.0    
+CPU 12 Number Out                           3339.0    
+CPU 11 Number Out                           3113.0    
+CPU 10 Number Out                           3164.0    
+CPU 7 Accum Wait Cost                       .00000    
+CPU 21 Total Accum Cost                     .00000    
+CPU 20 Total Accum Cost                     .00000    
+CPU 7 Total Accum Cost                      .00000    
+CPU 2 Accum VA Cost                         .00000    
+CPU 9 Total Accum Time                      .00000    
+CPU 7 Accum VA Time                         .00000    
+CPU 19 Total Accum Cost                     .00000    
+CPU 18 Total Accum Cost                     .00000    
+CPU 17 Total Accum Cost                     .00000    
+CPU 16 Total Accum Cost                     .00000    
+CPU 15 Total Accum Cost                     .00000    
+CPU 14 Total Accum Cost                     .00000    
+CPU 13 Total Accum Cost                     .00000    
+CPU 12 Total Accum Cost                     .00000    
+CPU 11 Total Accum Cost                     .00000    
+CPU 10 Total Accum Cost                     .00000    
+CPU 7 Number In                             .00000    
+CPU 9 Accum VA Time                         .00000    
+CPU 1 Total Accum Cost                      .00000    
+CPU 8 Number In                             .00000    
+CPU 1 Accum Wait Time                       .00000    
+CPU 8 Accum Wait Cost                       .00000    
+Fluxos de Dados.NumberIn                    9618.0    
+Fluxos de Dados.NumberOut                   9616.0    
+Máquina Iniciador.NumberSeized              .00000    
+Máquina Iniciador.ScheduledUtilization      .00000    
+Máquina Iniciador.BusyCost                  .00000    
+Máquina Iniciador.IdleCost                  .00000    
+Máquina Iniciador.UsageCost                 .00000    
+Operador 4.NumberSeized                     9616.0    
+Operador 4.ScheduledUtilization             .20027    
+Operador 4.BusyCost                         .00000    
+Operador 4.IdleCost                         .00000    
+Operador 4.UsageCost                        .00000    
+Operador 3.NumberSeized                     .00000    
+Operador 3.ScheduledUtilization             .00000    
+Operador 3.BusyCost                         .00000    
+Operador 3.IdleCost                         .00000    
+Operador 3.UsageCost                        .00000    
+Operador 2.NumberSeized                     .00000    
+Operador 2.ScheduledUtilization             .00000    
+Operador 2.BusyCost                         .00000    
+Operador 2.IdleCost                         .00000    
+Operador 2.UsageCost                        .00000    
+Operador 1.NumberSeized                     .00000    
+Operador 1.ScheduledUtilization             .00000    
+Operador 1.BusyCost                         .00000    
+Operador 1.IdleCost                         .00000    
+Operador 1.UsageCost                        .00000    
+Resource Backup 1.NumberSeized              9617.0    
+Resource Backup 1.ScheduledUtilization      .19996    
+Resource Backup 1.BusyCost                  .00000    
+Resource Backup 1.IdleCost                  .00000    
+Resource Backup 1.UsageCost                 .00000    
+Resource Backup 2.NumberSeized              9616.0    
+Resource Backup 2.ScheduledUtilization      .20014    
+Resource Backup 2.BusyCost                  .00000    
+Resource Backup 2.IdleCost                  .00000    
+Resource Backup 2.UsageCost                 .00000    
+Resource Backup 3.NumberSeized              9616.0    
+Resource Backup 3.ScheduledUtilization      .20002    
+Resource Backup 3.BusyCost                  .00000    
+Resource Backup 3.IdleCost                  .00000    
+Resource Backup 3.UsageCost                 .00000    
+All Entities.VACost                         .00000    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      .00000    
+All Resources.BusyCost                      .00000    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     .00000    
+System.TotalCost                            .00000    
+System.NumberOut                            9616.0    
+
+
+Tempo executando a simulação: 1.45 minutos.
+Simulação completada.
