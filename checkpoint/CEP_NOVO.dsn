@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=C:\Users\mathe\Documents\simulation-cep\checkpoint
-DBQ=C:\Users\mathe\Documents\simulation-cep\checkpoint\CEP_NOVO.accdb
+DefaultDir=C:\Users\athos-window\Documents\simulation-cep\checkpoint
+DBQ=C:\Users\athos-window\Documents\simulation-cep\checkpoint\CEP_NOVO.accdb
