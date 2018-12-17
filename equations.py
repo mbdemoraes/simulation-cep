@@ -3,23 +3,15 @@ import numpy as np
 import math
 
 
-#plt.plot([100000,200000,300000,400000,500000,600000,700000,800000,900000,1000000], [19,39, 59, 79, 99, 119, 139, 159, 179, 199], marker="^", color='#000000')
+#plt.plot([1000000,2000000,3000000,4000000,5000000,6000000,7000000,8000000,9000000,10000000], [199, 399, 599, 799, 1000, 1200, 1400, 1600, 1800, 2000], marker="^", color='#000000')
 
-# --------- Equation 1 -----------
-ts =159
-tau = 10
-N =  4
-cavg = 3
-beta = 12
-delta = (N * (cavg)) / beta
-tw = ts + (ts/tau) * delta
 
-print("Equation for Failure Free, tw = " + str(tw))
+ts = 6540
+delta = 1
+M = 300
+R = 120
 
 Tapp = ts
-
-M = 25
-R = 5
 
 # --------- Equation 2 -----------
 
@@ -28,18 +20,42 @@ tau = round(tau)
 
 print("Equation for Optimal Checkpoint Interval, Tau = " + str(tau))
 
+# --------- Equation 1 -----------
+tw = ts + (ts/tau) * delta
+
+print("Equation for Failure Free, tw = " + str(tw))
+
 # --------- Equation 3 -----------
 
 k = int(Tapp/tau)
-Tapp = k*tau;
+
 
 Tfail = Tapp + (k-1)*delta + k* ((tau + delta)/2 + R) * ((tau + delta)/M)
 
 print("Equation For Failure, T = " + str(Tfail) + " k=" + str(k))
 
-#TfailNEW = Tapp + (k-1)*delta + k* ((tau + delta)/(k*k) + R) * ((tau + delta)/M)
 
-#print("[NEW] Equation for Failure, T = "  + str(TfailNEW) + " k=" + str(k))
+# --------- Equation Discarded Failure-Prone -----------
+
+arrival = 5000
+teste = int(Tfail/M)
+
+omega = arrival * (k*delta) + arrival * ((teste) * R)
+
+print("Discards failure = " + str(omega) + "tapp=" + str(teste))
+
+# --------- Equation Discarded Failure-Free -----------
+
+omega = arrival * (k*delta)
+
+print("Discards FREE = " + str(omega))
+
+# --------- Equation Unprocessed -----------
+
+theta = arrival * (teste) * (tau/2)
+
+print("Unprocessed = " + str(tau/2))
+
 
 
 
