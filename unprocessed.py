@@ -2,23 +2,24 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-y = np.arange(1,11,1)
+x = np.arange(1250,11250,1250)
 
+plt.plot(x, [0,0,0,0,0,0,0,0],  color='black', linestyle=':')
+plt.plot(x, [0,0,0,0,0,0,0,0],  marker="^", color='b')
+plt.plot(x, [614705, 612290, 478563, 584992, 982500, 401754, 373926, 508584],  marker="d", color='r')
+plt.plot(x, [1181285, 1122515, 956251, 1799996, 843745, 1237573, 181187, 2250111],  marker="P", color='g')
 
-plt.subplot(211)
-plt.plot(y, [337680, 584992],  marker="^", color='#000000')
-plt.plot(y, [555000],  color='#e5914b')
+plt.legend(['Case 1', 'Case 2', 'Case 3', 'Case 4'], loc='‘lower right', fontsize='small', shadow=True, fancybox=True)
 
-
-plt.legend(['simulation', 'analytic model'], loc='‘lower right', fontsize='small', shadow=True, fancybox=True)
-
-plt.xlabel('Processing window ($\mathregular{10^6}$)', fontsize=12)
+plt.xlabel('Arrival rate', fontsize=12)
 plt.ylabel('Unprocessed tuples', fontsize=12)
 
 plt.grid(color='0.75', linestyle='-.', linewidth=0.3)
-plt.xticks(np.arange(1, 11, step=1), size=12)
-plt.yticks(np.arange(0, 800000, step=200000), size=12)
-plt.margins(0)
+plt.xticks(np.arange(1250, 12500, step=1250), size=12)
+plt.yticks(np.arange(0, 2400000, step=400000), size=12)
+#plt.margins(0)
 
 plt.tight_layout()
 
+
+plt.savefig('unprocessed.eps')

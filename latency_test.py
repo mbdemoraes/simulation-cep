@@ -12,7 +12,7 @@ plt.plot(y, [0,0,1,0,1,1,0,1,1,1],  linestyle=':', color='#000000')
 
 plt.legend(['simulation', 'analytic model', 'simulation % error'], loc='‘lower right', fontsize='small', shadow=True, fancybox=True)
 
-plt.xlabel('Processing window ($\mathregular{10^6}$) for failure-free', fontsize=12)
+plt.xlabel('Processing window ( x $\mathregular{10^6}$) for failure-free', fontsize=12)
 plt.ylabel('Latency (s)', fontsize=12)
 
 plt.grid(color='0.75', linestyle='-.', linewidth=0.3)
@@ -29,7 +29,7 @@ plt.plot(y, [23, 58, 34, 58, 96, 133, 157, 193, 169, 206],  linestyle=':', color
 
 plt.legend(['simulation', 'analytic model', 'simulation % error'], loc='‘lower right', fontsize='small', shadow=True, fancybox=True)
 
-plt.xlabel('Processing window ($\mathregular{10^6}$) for failure-prone', fontsize=12)
+plt.xlabel('Processing window ( x $\mathregular{10^6}$) for failure-prone', fontsize=12)
 plt.ylabel('Latency (s)', fontsize=12)
 
 plt.grid(color='0.75', linestyle='-.', linewidth=0.3)
