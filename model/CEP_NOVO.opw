@@ -1,0 +1,135 @@
+[RESOURCES]
+Máquina Iniciador
+Operador 4
+Operador 3
+Operador 2
+Operador 1
+Recurso CPU 3
+Recurso CPU 2
+Recurso CPU 12
+Recurso CPU 11
+Recurso CPU 10
+Recurso CPU 1
+Recurso CPU 7
+Recurso CPU 6
+Recurso CPU 5
+Recurso CPU 4
+Recurso CPU 9
+Recurso CPU 8
+[VARIABLES]
+Commit Time.NumberOut
+Commit Time.NumberIn
+CPU 8.VACost
+Gerador 3.NumberOut
+Teste.NumberOut True
+CPU 12.VATime
+CPU 10.VATime
+CPU 11.VATime
+Teste.NumberOut False
+CPU 2.NumberIn
+Receptor 2.NumberOut
+Recovery.WaitCost
+maxFila
+CPU 5.NumberOut
+CPU 2.NumberOut
+CPU 2.WaitCost
+CPU 3.VACost
+CPU 8.WaitTime
+Recovery.WaitTime
+ckpt_time_op1
+CPU 1.VATime
+CPU 8.VATime
+CPU 6.VATime
+CPU 6.NumberOut
+CPU 7.NumberOut
+Gerador 1.NumberOut
+CPU 1.NumberOut
+CPU 1.VACost
+CPU 2.WaitTime
+CPU 1.WaitCost
+CPU 12.VACost
+CPU 10.VACost
+CPU 11.VACost
+Fluxos descartados.NumberOut
+Operador 1 está funcionando?.NumberOut True
+Operador 2 está funcionando?.NumberOut True
+Operador 3 está funcionando?.NumberOut True
+Operador 4 está funcionando?.NumberOut True
+CPU 4.WaitCost
+CPU 5.VACost
+CPU 4.VACost
+tempoTotal
+Operador 1 está funcionando?.NumberOut False
+Operador 2 está funcionando?.NumberOut False
+Operador 3 está funcionando?.NumberOut False
+Operador 4 está funcionando?.NumberOut False
+CPU 5.WaitCost
+Receptor 1.NumberOut
+CPU 6.VACost
+acrescimoTempo
+Operador falhou?.NumberOut False
+CPU 3.VATime
+CPU 5.WaitTime
+Operador falhou?.NumberOut True
+CPU 6.WaitCost
+CPU 9.NumberOut
+CPU 5.VATime
+CPU 8.NumberOut
+Gerador 4.NumberOut
+CPU 9.WaitCost
+CPU 12.WaitCost
+CPU 10.WaitCost
+CPU 11.WaitCost
+CPU 7.WaitTime
+CPU 4.NumberOut
+descartarFluxos
+CPU 3.NumberIn
+CPU 4.VATime
+Recovery.VATime
+CPU 4.NumberIn
+CPU 9.VACost
+CPU 6.NumberIn
+CPU 2.VATime
+Commit Time.VATime
+Receptor 4.NumberOut
+Recovery.NumberIn
+Recovery.NumberOut
+Gerador 2.NumberOut
+CPU 9.NumberIn
+CPU 3.WaitTime
+Dispose 12.NumberOut
+CPU 7.VACost
+CPU 3.WaitCost
+CPU 6.WaitTime
+CPU 1.NumberIn
+CPU 12.WaitTime
+CPU 10.WaitTime
+CPU 11.WaitTime
+Commit Time.VACost
+CPU 3.NumberOut
+Receptor 3.NumberOut
+contaFalhas
+CPU 5.NumberIn
+CPU 9.WaitTime
+CPU 4.WaitTime
+Recovery.VACost
+qtdeNaoProcessados2
+CPU 12.NumberIn
+CPU 10.NumberIn
+CPU 11.NumberIn
+Decide 68.NumberOut False
+Decide 68.NumberOut True
+CPU 7.WaitCost
+CPU 12.NumberOut
+CPU 10.NumberOut
+CPU 11.NumberOut
+Commit Time.WaitTime
+Commit Time.WaitCost
+CPU 2.VACost
+Finalização do Checkpoint ou Rollback.NumberOut
+CPU 7.VATime
+CPU 7.NumberIn
+CPU 9.VATime
+CPU 8.NumberIn
+CPU 1.WaitTime
+CPU 8.WaitCost
